@@ -1,0 +1,5 @@
+@use "../styles/variables/typography.scss" as type;
+
+.h1{
+    font-family: type.$main-family-black;
+}
