@@ -1,0 +1,34 @@
+<div class="container">
+  <!-- product: es un bloque, porque tiene hijos -->
+  <section class="product">
+    <img src="assets/images/user.png" alt="product" />
+    <span class="product__name-product">Radiona</span>
+    <!-- <div class="details">
+        <div class="details__address"></div>
+        <div class="details__phone"></div>
+    </div> -->
+  </section>
+
+  <!-- 
+    Si la clase product no tuviera estilos, solo es un agrupador
+    entonces la linea 5 seria
+    <span class="container__name-product">Radiona</span>
+
+    en este caso product tiene estilos y elementos en su
+    interior, entonces es un bloque
+  -->
+
+  <!-- 
+    Un modificador afecta el aspecto del elemento
+    container__button--button-disabled
+
+    button-disabled afecta el aspecto del elemento
+    container__button
+  -->
+
+  <span class="container__price">$3300</span>
+
+  <button class="container__button container__button--button-disabled">
+    ADD TO CART
+  </button>
+</div>
