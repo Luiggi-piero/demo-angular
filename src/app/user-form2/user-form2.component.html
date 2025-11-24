@@ -1,0 +1,12 @@
+<div class="form">
+  <input
+    type="text"
+    name="name"
+    placeholder="Ingrese sus nombres"
+    appOnlyText
+    [(ngModel)]="texto"
+  />
+  <input type="text" placeholder="Ingrese su apellido materno" appOnlyText />
+  <input type="text" placeholder="Ingrese su apellido paterno" />
+  {{ texto }}
+</div>
